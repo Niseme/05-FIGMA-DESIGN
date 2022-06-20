@@ -1,0 +1,116 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+/* Header style */
+.logo-img{
+height: 53px;
+width: 147px;
+}
+
+.container .btn{
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 19px; 
+    background-color: #FF7000;
+    color: #fff;
+    padding: 17px 23px 19px 24px;
+}
+nav ul{
+    gap: 70px; 
+    position: relative;
+   
+}
+li a {
+    text-decoration: none;
+    color: #333333;
+}
+li a::after{
+    content: url('./img/plus.png');
+    margin: 0;
+    position: absolute;
+    top: 10px;
+    /* -ms-transform: translateY(-50%); */
+    transform: translateY(-50%);
+    margin-left: 14px;
+}
+
+/* hero */
+.container-fluid{
+    position: relative;
+}
+.bg-hero{
+    background-color:  #000000;
+    color: #fff;
+    text-transform: capitalize;
+}
+.hero-content{
+   
+    padding-top: 288px;
+    padding-bottom: 323px;
+}
+.hero-content h1{
+    margin-bottom: 23px;
+    max-width: 535px;
+}
+.hero-content h1, span{
+    font-family: 'Lora', serif;
+    font-weight: 700;
+}
+
+.hero-content span{
+    color: #ff7000;
+}
+.hero-content p{
+    margin-bottom: 40px;
+    max-width: 479px;
+}
+.hero-content button{
+    display: inline-block;
+    width: 165px;
+}
+
+/* ROUND BUTTONS */
+.round-button-left{
+    position: absolute;
+    transform: translateY(-50%);
+    left: 0;
+    top: 50%;
+}
+.round-button-right {
+    position: absolute;
+    transform: translateY(-50%);
+    right: 0;
+    top: 50%;
+}
+.round-button{
+    position: relative;
+    background-color: #FF7000;
+    border: 1px solid #ff7000;
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+}
+
+.fa.fa-chevron-right {
+    color: #fff;
+    font-size: 45px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%
+}
+
+.fa.fa-chevron-left {
+    color: #fff;
+    font-size: 45px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%
+}
+
