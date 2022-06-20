@@ -4,15 +4,17 @@ body * {
     padding: 0;
     vertical-align: top;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lora', serif;
 }
 /* Header style */
+
 .logo-img{
 height: 53px;
 width: 147px;
 }
 
 .container .btn{
+    font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     font-size: 16px;
     line-height: 19px; 
@@ -21,11 +23,13 @@ width: 147px;
     padding: 17px 23px 19px 24px;
 }
 nav ul{
+    
     gap: 70px; 
     position: relative;
    
 }
 li a {
+    font-family: 'Roboto', sans-serif;
     text-decoration: none;
     color: #333333;
 }
@@ -58,7 +62,6 @@ li a::after{
     max-width: 535px;
 }
 .hero-content h1, span{
-    font-family: 'Lora', serif;
     font-weight: 700;
 }
 
@@ -75,25 +78,26 @@ li a::after{
 }
 
 /* ROUND BUTTONS */
-.round-button-left{
+
+.round-button{
+    position: relative;
+    background-color: #FF7000;
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+}
+.round-button-left {
     position: absolute;
     transform: translateY(-50%);
     left: 0;
     top: 50%;
 }
+
 .round-button-right {
     position: absolute;
     transform: translateY(-50%);
     right: 0;
     top: 50%;
-}
-.round-button{
-    position: relative;
-    background-color: #FF7000;
-    border: 1px solid #ff7000;
-    height: 80px;
-    width: 80px;
-    border-radius: 100%;
 }
 
 .fa.fa-chevron-right {
@@ -113,4 +117,55 @@ li a::after{
     top: 50%;
     left: 50%
 }
+/* Welcome section */
+.welcome{
+    margin-top: 135px;
+    margin-bottom: 135px;
+    text-transform: capitalize;
+}
+.welcome span{
+    color: #FF7000;
+}
+.welcome .underline{
+    border-bottom: 3px solid #FF7000;
+    width: 100px;
+    margin-top: 32px;
+    margin-bottom: 39px;
+}
+.welcome p{
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 115px;
+}
 
+.card-icon{
+    position: relative;
+    background-color: #FF7000;
+    height: 90px;
+    width: 90px;
+    border-radius: 100%;
+    margin-bottom: 25px;
+}
+.fa.fa-user{
+    color: #fff;
+    font-size: 45px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%
+}
+.card span{
+    font-family: 'Roboto', sans-serif;
+    color: #666666;
+    margin: 0;
+}
+.card-content h5{
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.cards{
+    margin-bottom: 61px;
+}
+.welcome-btn{
+    width: 191px;
+    
+}
