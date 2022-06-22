@@ -1,0 +1,139 @@
+.upcoming-events{
+    background-color: #222222;
+    color: #fff;
+    padding: 134px;
+}
+/* left side */
+.upcoming-events .left-side{
+
+
+}
+.background-left{
+    padding: 27px 27px 34px 31px;
+    background-color: #666666;
+}
+.upcoming-events .left-side h1{
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 90px;
+    margin: 0;
+}
+.upcoming-events .left-side h4{
+font-weight: 700;
+    font-size: 35px;
+    line-height: 43px;
+    color: #ff7000;
+    text-transform: capitalize;
+    margin-bottom: 28px;
+}
+.upcoming-events .left-side p{
+    font-family: 'Roboto';
+        font-style: normal;
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #666666;
+        margin-bottom: 28px;
+}
+.upcoming-events .left-side a{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+    color: #fff;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+/* right side */
+.upcoming-events .right-side{
+}
+/* event date card */
+.event-date-card{
+background-color: #ff7000;
+width: 97px;
+height: 97px;
+}
+.event-day{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+        line-height: 69px;
+}
+.event-month{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-transform: uppercase;
+}
+
+
+.upcoming-events .right-side h1{
+    padding: 0;
+    margin-bottom: 32px;
+    font-weight: 700;
+}
+.upcoming-events .right-side h1 span{
+    color: #ff7000;
+}
+.upcoming-events .right-side .underline{
+    border-color: #fff;
+    margin: 0 0 57px 0;
+}
+.upcoming-events .right-side p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #666666;
+    margin-bottom: 88px;
+}
+.event-card h6{
+    font-style: normal;
+        font-weight: 700;
+        font-size: 21px;
+        line-height: 27px;
+        margin-bottom: 9px;
+}
+.event-cards .event-subinfo, .event-cards .event-subinfo p{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #ff7000;
+        margin: 0;
+}
+.event-info .event-subinfo{
+    position: relative;
+    margin-bottom: 20px;
+}
+.event-time{
+    margin-right: 33px;
+}
+.event-subinfo .event-time i{
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%, -50%);
+}
+.event-subinfo .event-time p{
+    margin-left: 20px;
+}
+.event-location {
+    position: relative;
+}
+.event-location i{
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%, -50%);
+}
+.event-subinfo .event-location p{
+    margin-left: 20px;
+}
+
