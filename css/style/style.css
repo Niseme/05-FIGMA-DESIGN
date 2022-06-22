@@ -1,0 +1,84 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+    font-family: 'Lora', serif;
+}
+/* General style */
+.underline {
+    border-bottom: 3px solid #FF7000;
+    width: 100px !important;
+    margin-top: 32px;
+    margin-bottom: 39px;
+}
+/* filled chart */
+.chart-line {
+    position: relative;
+    /* border: 1px solid white; */
+    height: 9px;
+    width: 100%;
+    border-radius: 4px;
+    background-color: #fff;
+    padding: 0;
+}
+.chart-fill {
+    position: absolute;
+    height: 9px;
+    width: 80%;
+    border-radius: 4px;
+    background-color: #FF7000;
+    top: 0;
+    left: 0;
+}
+
+/* ROUND BUTTONS */
+
+.round-button{
+    position: relative;
+    background-color: #FF7000;
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+}
+.round-button-left {
+    position: absolute;
+    transform: translateY(-50%);
+    left: 0;
+    top: 50%;
+}
+
+.round-button-right {
+    position: absolute;
+    transform: translateY(-50%);
+    right: 0;
+    top: 50%;
+}
+
+.fa.fa-chevron-right {
+    color: #fff;
+    font-size: 45px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%
+}
+
+.fa.fa-chevron-left {
+    color: #fff;
+    font-size: 45px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%
+}
+
+/* left side */
+.left-side {
+    width: 50%;
+    margin-right: 65px;
+}
+
+
+

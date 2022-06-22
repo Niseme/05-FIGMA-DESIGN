@@ -1,0 +1,40 @@
+/* hero */
+.container-fluid {
+    position: relative;
+}
+
+.bg-hero {
+    background-color: #000000;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.hero-content {
+
+    padding-top: 288px;
+    padding-bottom: 323px;
+}
+
+.hero-content h1 {
+    margin-bottom: 23px;
+    max-width: 535px;
+}
+
+.hero-content h1,
+span {
+    font-weight: 700;
+}
+
+.hero-content span {
+    color: #ff7000;
+}
+
+.hero-content p {
+    margin-bottom: 40px;
+    max-width: 479px;
+}
+
+.hero-content button {
+    display: inline-block;
+    width: 165px;
+}

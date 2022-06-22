@@ -1,0 +1,72 @@
+/* urgent cause section */
+
+.urgent-cause {
+    background-color: #444444;
+    color: #fff;
+    padding-top: 134px;
+    padding-bottom: 205px;
+}
+
+.title h1 {
+    text-transform: capitalize;
+}
+
+.title h1 span {
+    color: #FF7000;
+}
+
+.info-students {
+    margin-top: 67px;
+}
+
+/* urgent left side */
+
+.left-side h1 {
+    text-transform: capitalize;
+    margin-bottom: 27px;
+}
+
+.left-side h1 span {
+    color: #FF7000;
+}
+
+.left-side p {
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 60px;
+}
+
+/* urgent right side */
+.right-side {
+    width: 50%;
+}
+
+.right-side .square {
+    border: 1px solid #333333;
+    background-color: #333333;
+    height: 436px;
+    width: 570px;
+    padding-bottom: 41px;
+}
+/* donations */
+.donations-title {
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+
+.donations-title h6 {
+    font-size: 21px;
+    line-height: 27px;
+    color: #FF7000;
+    font-weight: 700;
+}
+
+/* rised goals */
+.rised-goals {
+    font-size: 21px;
+    line-height: 27px;
+    margin-top: 14px;
+}
+
+.rised-goals span {
+    color: #FF7000;
+}

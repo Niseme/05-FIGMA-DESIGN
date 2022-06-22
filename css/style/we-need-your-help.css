@@ -1,0 +1,40 @@
+/* we need your help */
+.card-body h6 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 27px;
+    margin-top: 34px;
+    margin-bottom: 17px;
+}
+
+.card-body p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 34px;
+}
+
+.donation-goals p,
+.donation-goals .percentage {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: lowercase;
+}
+
+.donation-goals .chart-line {
+    background-color: #999999;
+
+}
+
+.need-help .card {
+    width: 30%;
+    margin-right: 10px;
+    margin-bottom: 131px;
+}
+
+.need-help .card:last-child {
+    margin-right: 0;
+}

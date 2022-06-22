@@ -1,0 +1,55 @@
+/* Welcome section */
+.welcome,
+.need-help {
+    margin-top: 135px;
+    margin-bottom: 135px;
+    text-transform: capitalize;
+}
+
+.welcome span,
+.need-help span {
+    color: #FF7000;
+}
+
+.welcome p,
+.need-help p {
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 115px;
+}
+
+.card-icon {
+    position: relative;
+    background-color: #FF7000;
+    height: 90px;
+    width: 90px;
+    border-radius: 100%;
+    margin-bottom: 25px;
+}
+
+.fa.fa-user {
+    color: #fff;
+    font-size: 45px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%
+}
+
+.card span {
+    font-family: 'Roboto', sans-serif;
+    color: #666666;
+    margin: 0;
+}
+
+.card-content h5 {
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.cards {
+    margin-bottom: 61px;
+}
+
+.welcome-btn {
+    width: 191px;
+}

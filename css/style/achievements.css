@@ -1,0 +1,42 @@
+.achievements{
+    background-color: #222222;
+    background-image: url('../../img/Mask.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    padding-top: 136px;
+    padding-bottom: 165px;
+}
+.achievements .round-button{
+    background-color: #fff;
+    margin-right: 21px;
+}
+.achievements-card{
+    margin: 0 57px 0 0;
+    padding: 0;
+}
+.counts{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 58px;
+}
+.achievements-info p{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: capitalize;
+    margin: 0;
+}
+.achievements i{
+    color: #ff7000;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    font-size: 36px;
+    line-height: 42px;
+    
+        
+}
