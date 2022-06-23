@@ -1,0 +1,22 @@
+.join-us{
+    background-color: #ff7000;
+    color: #fff;
+    padding: 41px 375px 40px 375px;
+}
+.join-us .invitation{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+}
+.join-us .btn{
+    width: 187px;
+    background-color: #333333;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    padding: 17px 34px 19px 35px;
+} 
