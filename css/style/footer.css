@@ -5,9 +5,11 @@ footer {
     background-position: center;
     background-repeat: no-repeat;
     color: #fff;
-    padding-top: 136px;
-    padding-bottom: 165px;
+    height: 520px;
+    /* padding-top: 136px;
+    padding-bottom: 165px; */
 }
+
 
 footer .logo{
     margin-bottom: 30px;
